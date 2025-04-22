@@ -14,10 +14,6 @@ A Retrieval-Augmented Generation (RAG) chatbot trained on PDF documents. This ch
 - FastAPI backend for reliability and performance
 - Gradio web UI for a user-friendly experience
 
-## Demo
-
-[Access the live demo here](#) (link to be added after deployment)
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -78,32 +74,6 @@ python ui/app.py
 ```
 
 3. Open your browser and navigate to `http://localhost:7860` to interact with the chatbot.
-
-## Deployment Options
-
-### Local Deployment
-
-The setup above is suitable for local development and testing.
-
-### Cloud Deployment
-
-#### Option 1: Hugging Face Spaces
-
-You can deploy the UI to Hugging Face Spaces for free:
-
-1. Create a new Gradio Space on [Hugging Face](https://huggingface.co/spaces)
-2. Upload the code from the `ui` directory
-3. Add your API endpoint to the Space's environment variables
-
-#### Option 2: Render or Railway
-
-For a complete deployment of both the API and UI:
-
-1. Sign up for [Render](https://render.com/) or [Railway](https://railway.app/)
-2. Create two services:
-   - API service (using the FastAPI backend)
-   - Web service (using the Gradio UI)
-3. Set up the API URL in your UI service
 
 ## Project Structure
 
